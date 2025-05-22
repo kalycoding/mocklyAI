@@ -51,9 +51,9 @@
 
 @media (max-width: 700px) {
   .gradient .text-wrapper {
-    line-height: 1.5;
+    line-height: 1.1;
     letter-spacing: 0;
-    font-size: var(--heading-h1-bold-mobile-font-size);
+    font-size:3rem
   }
 }
 .gradient .p {
