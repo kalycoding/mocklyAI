@@ -1,0 +1,1 @@
+export { MediaIconUnfilledDocumentText } from "./MediaIconUnfilledDocumentText";

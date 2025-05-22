@@ -1,0 +1,15 @@
+.web {
+  background-color: #fcfdfd;
+  height: 4623px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.web .overlap {
+  height: 1034px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}

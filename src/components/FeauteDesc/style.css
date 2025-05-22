@@ -1,0 +1,72 @@
+.feaute-desc {
+  align-items: flex-start;
+  background-color: #fcfdfd;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 592px;
+}
+
+.feaute-desc .frame-18 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.feaute-desc .icon-left-wrapper {
+  background-color: #e9effd;
+  border-radius: 8px;
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.feaute-desc .frame-19 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.feaute-desc .add-job-details {
+  color: #0f1114;
+  font-family: var(--heading-h6-medium-desktop-font-family);
+  font-size: var(--heading-h6-medium-desktop-font-size);
+  font-style: var(--heading-h6-medium-desktop-font-style);
+  font-weight: var(--heading-h6-medium-desktop-font-weight);
+  letter-spacing: var(--heading-h6-medium-desktop-letter-spacing);
+  line-height: var(--heading-h6-medium-desktop-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.feaute-desc .paste-a-job-3 {
+  align-self: stretch;
+  color: #7a8299;
+  font-family: var(--paragraph-medium-regular-font-family);
+  font-size: var(--paragraph-medium-regular-font-size);
+  font-style: var(--paragraph-medium-regular-font-style);
+  font-weight: var(--paragraph-medium-regular-font-weight);
+  letter-spacing: var(--paragraph-medium-regular-letter-spacing);
+  line-height: var(--paragraph-medium-regular-line-height);
+  position: relative;
+}
+
+.feaute-desc .icon-left-8 {
+  height: 24px !important;
+  left: 4px !important;
+  position: absolute !important;
+  top: 4px !important;
+  width: 24px !important;
+}

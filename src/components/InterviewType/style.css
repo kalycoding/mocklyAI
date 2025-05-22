@@ -1,0 +1,108 @@
+.interview-type {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #eeeff2;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 384px;
+}
+
+.interview-type .frame-10 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 198px;
+  padding: 8px 8px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.interview-type .frame-11 {
+  align-self: stretch;
+  background: linear-gradient(
+    180deg,
+    rgba(190, 208, 249, 0.15) 20%,
+    rgba(190, 208, 249, 0.3) 100%
+  );
+  border-radius: 24px;
+  flex: 1;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.interview-type .frame-12 {
+  background-image: url(../../../static/img/mask-group-4.png);
+  background-size: 100% 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px #2563eb1f;
+  height: 174px;
+  left: 16px;
+  position: relative;
+  top: 16px;
+  width: 336px;
+}
+
+.interview-type .frame-13 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.interview-type .element {
+  align-self: stretch;
+  color: #7a8299;
+  font-family: var(--label-medium-medium-font-family);
+  font-size: var(--label-medium-medium-font-size);
+  font-style: var(--label-medium-medium-font-style);
+  font-weight: var(--label-medium-medium-font-weight);
+  letter-spacing: var(--label-medium-medium-letter-spacing);
+  line-height: var(--label-medium-medium-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.interview-type .text-wrapper-11 {
+  align-self: stretch;
+  color: #0f1114;
+  font-family: var(--heading-h6-medium-desktop-font-family);
+  font-size: var(--heading-h6-medium-desktop-font-size);
+  font-style: var(--heading-h6-medium-desktop-font-style);
+  font-weight: var(--heading-h6-medium-desktop-font-weight);
+  letter-spacing: var(--heading-h6-medium-desktop-letter-spacing);
+  line-height: var(--heading-h6-medium-desktop-line-height);
+  position: relative;
+}
+
+.interview-type .paste-a-job {
+  align-self: stretch;
+  color: #7a8299;
+  font-family: var(--paragraph-medium-regular-font-family);
+  font-size: var(--paragraph-medium-regular-font-size);
+  font-style: var(--paragraph-medium-regular-font-style);
+  font-weight: var(--paragraph-medium-regular-font-weight);
+  letter-spacing: var(--paragraph-medium-regular-letter-spacing);
+  line-height: var(--paragraph-medium-regular-line-height);
+  position: relative;
+}
+
+.interview-type:hover {
+  border-color: #2563eb;
+}
+
+.interview-type:hover .frame-12 {
+  background-image: url(../../../static/img/mask-group-5.png);
+}

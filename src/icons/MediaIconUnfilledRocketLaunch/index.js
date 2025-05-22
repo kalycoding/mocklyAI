@@ -1,0 +1,1 @@
+export { MediaIconUnfilledRocketLaunch } from "./MediaIconUnfilledRocketLaunch";

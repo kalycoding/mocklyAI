@@ -1,0 +1,38 @@
+.ideal-user-item {
+  align-items: flex-start;
+  background-color: #fcfdfd;
+  border-color: #e9effd;
+  border-left-style: solid;
+  border-left-width: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 12px;
+  position: relative;
+  width: 384px;
+}
+
+.ideal-user-item .CS-students {
+  align-self: stretch;
+  color: #0f1114;
+  font-family: var(--heading-h6-medium-desktop-font-family);
+  font-size: var(--heading-h6-medium-desktop-font-size);
+  font-style: var(--heading-h6-medium-desktop-font-style);
+  font-weight: var(--heading-h6-medium-desktop-font-weight);
+  letter-spacing: var(--heading-h6-medium-desktop-letter-spacing);
+  line-height: var(--heading-h6-medium-desktop-line-height);
+  margin-top: -4.00px;
+  position: relative;
+}
+
+.ideal-user-item .stand-out-in {
+  align-self: stretch;
+  color: #7a8299;
+  font-family: var(--paragraph-medium-regular-font-family);
+  font-size: var(--paragraph-medium-regular-font-size);
+  font-style: var(--paragraph-medium-regular-font-style);
+  font-weight: var(--paragraph-medium-regular-font-weight);
+  letter-spacing: var(--paragraph-medium-regular-letter-spacing);
+  line-height: var(--paragraph-medium-regular-line-height);
+  position: relative;
+}

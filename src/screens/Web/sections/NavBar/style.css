@@ -1,0 +1,9 @@
+.nav-bar-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.design-component-instance-node {
+  border-color: unset !important;
+}

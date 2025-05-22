@@ -1,0 +1,27 @@
+.page-nav {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+}
+
+.page-nav .how-it-works {
+  color: #5b6277;
+  font-family: var(--label-large-medium-font-family);
+  font-size: var(--label-large-medium-font-size);
+  font-style: var(--label-large-medium-font-style);
+  font-weight: var(--label-large-medium-font-weight);
+  letter-spacing: var(--label-large-medium-letter-spacing);
+  line-height: var(--label-large-medium-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.page-nav:hover .how-it-works {
+  color: #3c414e;
+}

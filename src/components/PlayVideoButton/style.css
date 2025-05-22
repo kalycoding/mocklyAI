@@ -1,0 +1,21 @@
+.play-video-button {
+  background-color: #2563eb;
+  border: 12px solid;
+  border-color: #bed0f9;
+  border-radius: 128px;
+  height: 85px;
+  position: relative;
+  width: 85px;
+}
+
+.play-video-button .icon-left-4 {
+  height: 20px !important;
+  left: 21px !important;
+  position: absolute !important;
+  top: 21px !important;
+  width: 20px !important;
+}
+
+.play-video-button:hover {
+  background-color: #1e4fbc;
+}

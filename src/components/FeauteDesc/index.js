@@ -1,0 +1,1 @@
+export { FeauteDesc } from "./FeauteDesc";

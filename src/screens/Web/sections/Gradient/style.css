@@ -1,0 +1,122 @@
+.gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(252, 253, 253, 0) 30%,
+    rgba(102, 146, 241, 0.6) 100%
+  );
+  height: 1034px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.gradient .div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  left: 312px;
+  position: absolute;
+  top: 204px;
+  width: 817px;
+}
+
+.gradient .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.gradient .text-wrapper {
+  align-self: stretch;
+  color: #0f1114;
+  font-family: var(--display-semibold-xlarge-font-family);
+  font-size: var(--display-semibold-xlarge-font-size);
+  font-style: var(--display-semibold-xlarge-font-style);
+  font-weight: var(--display-semibold-xlarge-font-weight);
+  letter-spacing: var(--display-semibold-xlarge-letter-spacing);
+  line-height: var(--display-semibold-xlarge-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.gradient .p {
+  align-self: stretch;
+  color: #7a8299;
+  font-family: var(--paragraph-large-medium-font-family);
+  font-size: var(--paragraph-large-medium-font-size);
+  font-style: var(--paragraph-large-medium-font-style);
+  font-weight: var(--paragraph-large-medium-font-weight);
+  letter-spacing: var(--paragraph-large-medium-letter-spacing);
+  line-height: var(--paragraph-large-medium-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.gradient .frame-3 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 307px;
+}
+
+.gradient .button {
+  all: unset;
+  align-items: center;
+  background-color: #2563eb;
+  border: 1px solid;
+  border-radius: 12px;
+  box-shadow: var(--drop-shadow-small);
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 14px 20px;
+  position: relative;
+}
+
+.gradient .label {
+  color: #ffffff;
+  font-family: var(--label-large-medium-font-family);
+  font-size: var(--label-large-medium-font-size);
+  font-style: var(--label-large-medium-font-style);
+  font-weight: var(--label-large-medium-font-weight);
+  letter-spacing: var(--label-large-medium-letter-spacing);
+  line-height: var(--label-large-medium-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.gradient .text-wrapper-2 {
+  align-self: stretch;
+  color: #7a8299;
+  font-family: var(--paragraph-xsmall-regular-font-family);
+  font-size: var(--paragraph-xsmall-regular-font-size);
+  font-style: var(--paragraph-xsmall-regular-font-style);
+  font-weight: var(--paragraph-xsmall-regular-font-weight);
+  letter-spacing: var(--paragraph-xsmall-regular-letter-spacing);
+  line-height: var(--paragraph-xsmall-regular-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.gradient .demo-video-instance {
+  left: 112px !important;
+  position: absolute !important;
+  top: 606px !important;
+}
