@@ -7,7 +7,8 @@
   border-bottom-width: 1px;
   border-color: #eeeff2;
   width: 100%;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   padding: 20px 112px;
   position: relative;
 }
@@ -42,6 +43,24 @@
   display: inline-flex;
   flex: 0 0 auto;
   gap: 8px;
+  outline: none;
+  justify-content: center;
+  padding: 14px 20px;
+  position: relative;
+}
+.mobile-button-3{
+  all: unset;
+  align-items: center;
+  background-color: #2563eb;
+  border: 1px solid;
+  border-color: #2563eb;
+  border-radius: 8px;
+  box-shadow: var(--drop-shadow-small);
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  outline: none;
   justify-content: center;
   padding: 14px 20px;
   position: relative;
@@ -60,4 +79,24 @@
   text-align: center;
   white-space: nowrap;
   width: fit-content;
+} 
+.waitlist-label {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 10px;
+  justify-content: space-between;
 }
+@media (max-width: 985px) {
+  .nav-bar-wrapper .frame-5 {
+    display: none;
+  }
+  .nav-bar-wrapper {
+    padding: 50px;
+  }
+  .nav-bar-wrapper .button-3  {
+    display: none;
+    padding: 50px;
+  }
+  }
+  
