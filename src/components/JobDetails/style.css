@@ -11,6 +11,7 @@
   width: 384px;
 }
 
+
 .job-details .frame-6 {
   align-items: flex-start;
   align-self: stretch;
@@ -105,4 +106,15 @@
 
 .job-details:hover .frame-8 {
   background-image: url(../../../static/img/mask-group-7.png);
+}
+
+@media (max-width: 900px) {
+  .job-details {
+    width: 100%;
+  }
+
+  .job-details .frame-8 { 
+    width: 95%;
+  }
+ 
 }

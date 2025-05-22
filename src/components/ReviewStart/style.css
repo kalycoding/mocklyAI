@@ -106,3 +106,14 @@
 .review-start:hover .frame-16 {
   background-image: url(../../../static/img/mask-group-3.png);
 }
+
+@media (max-width: 900px) {
+  .review-start{
+    width: 100%;
+  }
+
+  .review-start .frame-16 { 
+    width: 95%;
+  }
+ 
+}
