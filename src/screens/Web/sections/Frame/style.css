@@ -6,7 +6,7 @@
   position: absolute;
   top: 1193px;
   width: 100%;
-    max-width: 1440px;
+    
     margin: 0 auto;
 }
 
@@ -89,8 +89,6 @@
   line-height: var(--heading-h1-semibold-desktop-line-height);
   position: relative;
   text-align: center;
-  white-space: nowrap;
-  width: fit-content;
 }
 
 .frame .mocklyai-builds-your {
@@ -103,7 +101,6 @@
   line-height: var(--paragraph-large-medium-line-height);
   position: relative;
   text-align: center;
-  white-space: nowrap;
 }
 
 .frame .div-4 {
@@ -154,11 +151,17 @@
   align-items: center;
   display: flex;
   flex: 0 0 auto;
-  gap: 32px;
+  gap: 40px;
   justify-content: center;
   position: relative;
   width: 100%;
-    max-width: 1216px;
+}
+
+@media (max-width: 900px) {
+  .frame .div-6 { 
+    flex-direction: column;
+  }
+ 
 }
 
 .frame .div-7 {
@@ -220,7 +223,6 @@
   line-height: var(--paragraph-large-medium-line-height);
   position: relative;
   text-align: center;
-  width: 720px;
 }
 
 .frame .div-9 {
@@ -231,6 +233,12 @@
   gap: 30px;
   position: relative;
   width: 100%;
+
+}
+@media (max-width: 700px) {
+  .frame .div-9 {
+flex-wrap: wrap;
+  }
 }
 
 .frame .ideal-user-item-instance {
@@ -251,7 +259,8 @@
   height: 340px;
   justify-content: center;
   position: relative;
-  width: 1216px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .frame .div-10 {
@@ -261,8 +270,7 @@
   flex-direction: column;
   gap: 32px;
   justify-content: center;
-  position: relative;
-  width: 800px;
+  position: relative
 }
 
 .frame .text-wrapper-6 {
@@ -276,7 +284,13 @@
   margin-top: -1.00px;
   position: relative;
   text-align: center;
-  width: 800px;
+}
+@media (max-width: 700px) {
+  .frame .text-wrapper-6 {
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+  }
 }
 
 .frame .label-wrapper {
@@ -423,7 +437,7 @@
   .frame .div-2,
   .frame .div-5,
   .frame .div-8 {
-    padding: 24px 10px;
+    padding: 24px 18px;
   }
 
   .frame .text-wrapper-3,

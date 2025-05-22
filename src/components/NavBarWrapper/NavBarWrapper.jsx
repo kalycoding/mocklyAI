@@ -48,9 +48,6 @@ export const NavBarWrapper = ({
           <a href="#who-its-for">Who It's For</a>
           <a href="#about-us">About Us</a>
           <a href="#contact-us">Contact Us</a>
-          <button className="mobile-button-3">
-            <div className="label-4">Join Waitlist</div>
-          </button>
         </div>
       )}
     </div>
