@@ -18,9 +18,16 @@ import { Property1Hovered2 } from "../../../../icons/Property1Hovered2";
 import "./style.css";
 
 export const Frame = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setIsMobileMenuOpen(false);
+    }
+  };
   return (
     <div className="frame">
-      <div className="div-2">
+      <div className="div-2" id="how-it-works">
         <div className="frame-wrapper">
           <div className="div-3">
             <div className="button-2">
@@ -44,7 +51,7 @@ export const Frame = () => {
         </div>
       </div>
 
-      <div className="div-5">
+      <div className="div-5" id="features">
         <div className="frame-wrapper">
           <div className="div-3">
             <div className="button-2">
@@ -112,7 +119,7 @@ export const Frame = () => {
         </div>
       </div>
 
-      <div className="div-8">
+      <div className="div-8" id="who-its-for">
         <div className="frame-wrapper">
           <div className="div-3">
             <div className="button-2">
@@ -173,9 +180,21 @@ export const Frame = () => {
       <div className="div-11">
         <div className="div-12">
           <div className="div-13">
-            <PageNav className="page-nav-instance" page="How It Works" />
-            <PageNav className="page-nav-instance" page="Features" />
-            <PageNav className="page-nav-instance" page="Who It&#39;s For" />
+            <PageNav
+              className="page-nav-instance"
+              page="How It Works"
+              onClick={() => scrollToSection("how-it-works")}
+            />
+            <PageNav
+              className="page-nav-instance"
+              page="Features"
+              onClick={() => scrollToSection("features")}
+            />
+            <PageNav
+              className="page-nav-instance"
+              page="Who It&#39;s For"
+              onClick={() => scrollToSection("who-its-for")}
+            />
           </div>
 
           <div className="div-14">
