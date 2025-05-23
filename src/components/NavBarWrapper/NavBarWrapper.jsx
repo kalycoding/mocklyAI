@@ -60,8 +60,11 @@ export const NavBarWrapper = ({
         />
       </div>
 
-      <button className={`button-3 ${buttonClassName}`}>
-        <div className="label-4">Join Waitlist</div>
+      <button
+        className={`button-3 ${buttonClassName}`}
+        onClick={() => window.open('https://app.trymockly.ai', '_blank')}
+      >
+        <div className="label-4">Get Started Now</div>
       </button>
 
       <button className="hamburger-menu" onClick={toggleMobileMenu}>
@@ -77,8 +80,11 @@ export const NavBarWrapper = ({
           <a onClick={() => scrollToSection("who-its-for")}>Who It's For</a>
           <a onClick={() => scrollToSection("about-us")}>About Us</a>
           <a onClick={() => scrollToSection("contact-us")}>Contact Us</a>
-          <button className="mobile-button-3">
-            <div className="label-4">Join Waitlist</div>
+          <button
+            className={`mobile-button-3 ${buttonClassName}`}
+            onClick={() => window.open('https://app.trymockly.ai', '_blank')}
+          >
+            <div className="label-4">Get Started Now</div>
           </button>
         </div>
       )}

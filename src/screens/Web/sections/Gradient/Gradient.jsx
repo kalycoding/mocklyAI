@@ -18,12 +18,15 @@ export const Gradient = () => {
         </div>
 
         <div className="frame-3">
-          <button className="button">
-            <div className="label">Join Waitlist</div>
+          <button
+            className='button'
+            onClick={() => window.open('https://app.trymockly.ai', '_blank')}
+          >
+            <div className="label-4">Get Started Now</div>
           </button>
 
           <p className="text-wrapper-2">
-            Nothing to install. Try 3 full interviews for free.
+            Nothing to install. Try for free
           </p>
         </div>
       </div>

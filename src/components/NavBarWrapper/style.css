@@ -35,8 +35,7 @@
   all: unset;
   align-items: center;
   background-color: #2563eb;
-  border: 1px solid;
-  border-color: #2563eb;
+  border: 1px solid #2563eb;
   border-radius: 12px;
   box-shadow: var(--drop-shadow-small);
   box-sizing: border-box;
@@ -47,13 +46,15 @@
   justify-content: center;
   padding: 14px 20px;
   position: relative;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
-.mobile-button-3{
+
+.mobile-button-3 {
   all: unset;
   align-items: center;
   background-color: #2563eb;
-  border: 1px solid;
-  border-color: #2563eb;
+  border: 1px solid #2563eb;
   border-radius: 8px;
   box-shadow: var(--drop-shadow-small);
   box-sizing: border-box;
@@ -64,7 +65,16 @@
   justify-content: center;
   padding: 14px 20px;
   position: relative;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
+
+.nav-bar-wrapper .button-3:hover,
+.mobile-button-3:hover {
+  background-color: #1e40af;
+  transform: translateY(-1px);
+}
+
 
 .nav-bar-wrapper .label-4 {
   color: #ffffff;

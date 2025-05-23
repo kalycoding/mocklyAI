@@ -162,21 +162,6 @@ export const Frame = () => {
         </div>
       </div>
 
-      <div className="div-2">
-        <div className="div-wrapper">
-          <div className="div-10">
-            <p className="text-wrapper-6">
-              Join the waitlist and start with 3 free AI-powered mock
-              interviews.
-            </p>
-
-            <button className="label-wrapper">
-              <div className="label-3">Join Waitlist</div>
-            </button>
-          </div>
-        </div>
-      </div>
-
       <div className="div-11">
         <div className="div-12">
           <div className="div-13">
@@ -198,18 +183,13 @@ export const Frame = () => {
           </div>
 
           <div className="div-14">
-            <Property1Hovered2
+            <div
               className="icon-instance-node-2"
-              color="#A2A8B8"
-            />
-            <Property1Default1
-              className="icon-instance-node-2"
-              color="#A2A8B8"
-            />
-            <Property1Hovered
-              className="icon-instance-node-2"
-              color="#A2A8B8"
-            />
+              onClick={() => window.open('https://x.com/try_mocklyai', '_blank')}
+              style={{ cursor: 'pointer' }}
+            >
+              <Property1Default1 color="#A2A8B8" />
+          </div>
           </div>
         </div>
 
