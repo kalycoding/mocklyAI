@@ -1,6 +1,42 @@
 .demo-video {
-  height: 587px;
-  width: 1216px;
+  width: 100%;
+  max-width: 1200px;
+  margin: -6rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  @media (max-width: 768px) {
+    .demo-video {
+      padding: 0 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .demo-video {
+      padding: 0 0.25rem;
+    }
 }
 
 .demo-video .overlap-group {
@@ -9,17 +45,9 @@
 
 .demo-video .frame-4 {
   height: 587px;
-  position: absolute;
-  width: 1216px;
+  width: 100%
 }
 
-.demo-video .mask-group {
-  height: 611px;
-  left: -12px;
-  position: absolute;
-  top: -12px;
-  width: 1240px;
-}
 
 .demo-video .class {
   left: 582px !important;
@@ -36,25 +64,20 @@
 .demo-video .default {
   height: 587px;
 }
-
+/* 
 .demo-video .hovered {
   background-image: url(../../../static/img/mask-group-9.png);
   background-size: 100% 100%;
   height: 611px;
-  left: -12px;
-  top: -12px;
-  width: 1240px;
-}
+  width: 100%;
+} */
 
-.demo-video .overlap-group.default .frame-4 {
-  left: 0;
-  top: 0;
-}
 
+/* 
 .demo-video .overlap-group.hovered .frame-4 {
   background-color: #2563eb;
   border-radius: 12px;
   left: 12px;
   opacity: 0.05;
   top: 12px;
-}
+} */

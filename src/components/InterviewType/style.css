@@ -106,3 +106,15 @@
 .interview-type:hover .frame-12 {
   background-image: url(../../../static/img/mask-group-5.png);
 }
+
+
+@media (max-width: 900px) {
+  .interview-type {
+    width: 100%;
+  }
+
+  .interview-type .frame-12 { 
+    width: 95%;
+  }
+ 
+}

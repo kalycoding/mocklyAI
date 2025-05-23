@@ -5,5 +5,5 @@ import { Web } from "./screens/Web";
 createRoot(document.getElementById("app")).render(
   <StrictMode>
     <Web />
-  </StrictMode>,
+  </StrictMode>
 );

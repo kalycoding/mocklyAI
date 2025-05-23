@@ -7,9 +7,9 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const PageNav = ({ page = "How It Works", className }) => {
+export const PageNav = ({ page = "How It Works", className, onClick }) => {
   return (
-    <div className={`page-nav ${className}`}>
+    <div className={`page-nav ${className}`} onClick={() => onClick()}>
       <div className="how-it-works">{page}</div>
     </div>
   );

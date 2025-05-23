@@ -1,15 +1,29 @@
 .web {
   background-color: #fcfdfd;
-  height: 4623px;
-  overflow: hidden;
+  height: 100vh;
+  overflow: auto;
   position: relative;
-  width: 1440px;
+ width: 100%;
+  margin: 0 auto;
 }
 
 .web .overlap {
-  height: 1034px;
+  height: 100%;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 100%;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .web {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .web {
+      max-width: 100%;
+    }
 }
