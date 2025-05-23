@@ -29,7 +29,15 @@
 
 .nav-bar-wrapper .page-nav-2 {
   flex: 0 0 auto !important;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.1s ease;
 }
+
+.nav-bar-wrapper .page-nav-2:hover {
+  color: #2563eb; /* or any hover color */
+  transform: translateY(-1px); /* optional lift effect */
+}
+
 
 .nav-bar-wrapper .button-3 {
   all: unset;
