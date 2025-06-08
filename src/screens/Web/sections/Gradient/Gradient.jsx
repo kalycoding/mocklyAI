@@ -8,7 +8,7 @@ export const Gradient = () => {
       <div className="div">
         <div className="frame-2">
           <p className="text-wrapper">
-            Ace Interviews for Google, Meta, and More
+            Land Your Dream Job Faster.
           </p>
 
           <p className="p">
