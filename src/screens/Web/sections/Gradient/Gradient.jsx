@@ -12,8 +12,8 @@ export const Gradient = () => {
           </p>
 
           <p className="p">
-            Train with an AI interviewer that talks and listens like a real
-            engineer to help you improve fast.
+            Create a resume/CV that gets noticed.
+            Then practice with an AI that talks like a real interviewer.
           </p>
         </div>
 
